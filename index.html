@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="" content="">
+	<link rel="shortcut icon" href="./material/img/sexy.ico">
+	<title>Change Background Image</title>
+	<style>
+		h1 {
+			font-family: "Lucida Grande";
+			font-size: 56px;
+		}
+		/*body {
+			background-size: height: 1080px;
+		}*/
+	</style>
+	<script src="./material/jquery.js"></script>
+	<script src="./material/jquery.bgswitcher.js"></script>
+	<script>
+		$(function(){
+			$('body').bgswitcher({
+				images: ["./material/img/sexy1.jpg", "./material/img/sexy2.jpg", "./material/img/sexy3.jpg"]
+			});
+		});
+	</script>
+</head>
+<body style="height: 1080px;">
+	<h1>Sexy Girls!!</h1>
+</body>
+</html>
